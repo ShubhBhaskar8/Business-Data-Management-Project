@@ -1,45 +1,41 @@
-# Tulip Hospital: Operational & Financial Analysis
+# Tulip Hospital: Operational & Financial Analysis (BDM Project - IIT Madras)
 
-##  Project Summary
-This project was completed as part of the Business Data Management course at IIT Madras. It involved the collection and analysis of real-world data from Tulip Hospital in Sonipat, Haryana over a one-year period (April 2023 – March 2024).
+##  Summary
+This project is a healthcare operational case study of **Tulip Hospital (Sonipat, Haryana)**. It was conducted as part of the Business Data Management course at IIT Madras using real-world data collected across departments between **April 2023 – March 2024**.
 
 ##  Objectives
-- Improve procedure attribution to doctors and departments
-- Evaluate the impact of various payment methods on cash flow
-- Analyze patient inflow trends for better resource allocation
+- Optimize procedure attribution to reduce doctor overwork
+- Improve documentation standards and billing data entry
+- Track monthly trends in OPD/IPD services and occupancy
+- Understand financial bottlenecks linked to delayed insurance payments
 
-##  Dataset Description
-Data was manually collected and maintained across three Excel files:
-- **Inpatient Data**
-- **Outpatient Data**
-- **Service Register Data**
+##  Dataset Overview
+The dataset included:
+- Monthly OPD and IPD procedures
+- Department-wise procedure breakdown
+- Billing details by cash, private insurance, and government insurance
+- Bed occupancy rates
+- Doctor-specific workload metrics
+- Patient demographic (Sonipat vs non-Sonipat)
 
-Each dataset included fields like:
-- Admission/Discharge Dates
-- Doctor Name
-- Bill Amount, Net Amount, Discounts, Balance
-- Patient Demographics
-- Ward/Department Information
+##  Key Results
+- **Radiology handled over 18,000 procedures**
+- **Cash vs Credit ratio = 29:71**
+- Bed occupancy stayed above 80%, peaking at 100% in Feb
+- Major reliance on credit led to cash flow issues
+- Doctor workloads showed huge imbalance (e.g. 77 vs 2 procedures/day)
 
-##  Methods Used
-- Manual data cleaning & standardization in Excel
-- Descriptive statistics (mean, frequency, distribution)
-- Visualizations using:
-  - Bar charts (doctor workloads, department activity)
-  - Line charts (monthly procedure trends)
-  - Pie/donut charts (payment mode distributions)
+##  Tools & Techniques
+- Microsoft Excel: data cleaning, formulas, pivot tables, charts
+- Metrics: Total Revenue, Bed Occupancy Rate, Doctor Workload, Patient Mix
+- Visuals: Bar charts, Line graphs, Pie/Donut charts
 
-##  Key Findings
-- Radiology led in volume and revenue generation
-- Doctor workload imbalance was quantified
-- Over 70% of payments were on credit — highlighting cash flow issues
-- Seasonal variation in workload, with a peak in June
-- Diverse revenue streams across insurance, cash, and govt aid
-
-##  Tools Used
-- Microsoft Excel
-- Chart visualizations (manual)
-- Statistical reasoning for workload modeling
+##  Recommendations
+- Structured doctor attribution: Primary, Secondary, Tertiary, Referring
+- Standardized procedure names (avoid abbreviations)
+- Expand temporary capacity in peak months
+- Offer discounts for off-peak elective procedures
+- Improve insurance collection timelines
 
 ##  Author
 **Shubh Bhaskar**  
