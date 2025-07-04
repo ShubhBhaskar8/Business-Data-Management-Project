@@ -41,7 +41,7 @@ Each dataset included fields like:
 - Chart visualizations (manual)
 - Statistical reasoning for workload modeling
 
-## 👨‍⚕️ Author
+##  Author
 **Shubh Bhaskar**  
 Business Data Management (BDM), IIT Madras  
-Email: 22f3000712@ds.study.iitm.ac.in
+Email: shubhbhaskar238@gmail.com
